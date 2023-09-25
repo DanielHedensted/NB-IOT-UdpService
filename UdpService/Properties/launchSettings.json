@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "UdpService": {
+      "commandName": "Project",
+      "commandLineArgs": "8080 PeopleCounter \"Server=tcp:hedensted-prod-iot-sql.database.windows.net,1433;Initial Catalog=HED-PROD-IOT-SQL;Persist Security Info=False;User ID=IoTSQLUSER;Password=8G2Z6r4BhSSWqBeW;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30\"",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    }
+  }
+}
